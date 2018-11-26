@@ -1,5 +1,5 @@
 # Write your code here.
-def dictionary
+def dictionary(word)
   replacements = {
     'hello' => 'hi',
     'to' => 2,
@@ -12,9 +12,13 @@ def dictionary
     'at' => '@',
     'and' => '&'
   }
+  replacements[word] || word
 end
 
 def word_substituter(tweet)
+  tweet.map do |word|
+    word = di
+  end
 end
 
 def bulk_tweet
