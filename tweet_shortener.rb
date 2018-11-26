@@ -16,7 +16,7 @@ def dictionary(word)
 end
 
 def word_substituter(tweet)
-  tweet.map do |word|
+  tweet.split.map do |word|
     word = dictionary(word)
   end
 end
