@@ -17,7 +17,7 @@ end
 
 def word_substituter(tweet)
   tweet.map do |word|
-    word = di
+    word = dictionary(word)
   end
 end
 
