@@ -19,7 +19,7 @@ def word_substituter(tweet)
   tweet.split.map do |word|
     word = dictionary(word)
   end
-  tweet.join(' ')
+  tweet.join
 end
 
 def bulk_tweet
